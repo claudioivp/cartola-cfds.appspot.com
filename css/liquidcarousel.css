@@ -1,0 +1,17 @@
+.liquid 
+	{ background:#444; padding:10px 0; width:980px; margin:0 auto;}
+	
+.liquid .previous 
+	{ display:block; height:132px; width:55px; background-image:url(../images/slider-previous.png); float:left; margin:0;}
+	
+.liquid .next 
+	{ display:block; height:132px; width:60px; background-image:url(../images/slider-next.png); float:right; margin:0;}
+
+.liquid ul li 
+	{ width:188px; margin:0;}
+	
+.liquid ul li a img 
+	{ border:none; width:188px;	height:132px;}
+	
+.liquid ul li a:hover
+		{ text-decoration:none; opacity: 0.90; -moz-opacity: 0.90; Filter: Alpha(Opacity=90);}

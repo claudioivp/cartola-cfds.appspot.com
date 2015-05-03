@@ -1,0 +1,144 @@
+.inscritos tr th
+{ font-size:14px;}
+.inscritos tr td
+{ font-size:12px;}
+.inscritos tr th, .inscritos tr td
+{ padding:4px;}
+
+.title_group
+{ margin-top:20px; font-size:16px;}
+
+.anchorguide
+{ font-size:13px; margin-top:10px; color:#999;}
+
+.anchorguide a
+{ color:#006dcc; text-decoration:underline;}
+
+.classificacao
+{ width:960px; border-collapse:collapse; border:1px solid #ccc; margin-top:10px;}
+
+    .classificacao .left
+    { text-align:left !important;}
+    
+    .classificacao .bold
+    { font-weight:bold; color:#000 !important;}
+    
+    .classificacao thead
+    { color:#999;}
+    
+        .classificacao thead tr
+        { background-color:#efefef;}
+
+            .classificacao thead tr th
+            { font-size:11px; line-height:32px; text-transform:uppercase; font-weight:normal;}
+        
+    .classificacao tbody
+    { font-size:14px; color:#999;}
+
+        .classificacao tbody tr td
+        { border-top:1px solid #ccc; line-height:36px; text-align:center;}
+
+            .classificacao tbody tr td.sustenido
+            { width:32px; font-size:18px;}
+            
+            .classificacao tbody tr td.classificado
+            { color:#036;}
+			
+			.classificacao tbody tr td.classificado2
+            { color:#cc0000;}
+            
+            .classificacao tbody tr td.nometime
+            { width:450px;}
+
+            .classificacao tbody tr:hover
+            { background-color:#efefef;}
+                
+    .classificacao thead tr th, .classificacao tbody tr td
+    { padding:0px 8px;}
+
+.menuc
+{ width:960px; border-bottom:2px solid #cc0000;}
+
+.menuc .menu
+{ width:590px; height:30px; margin:0px auto ; text-align:center; list-style:none;}
+	
+	.menuc .menu li
+	{ width:140px; height:30px; line-height:30px; float:left; margin-right:10px;}
+	
+		.menuc .menu li a
+		{ display:block; font-weight:bold}
+	
+		.menuc .menu li a.active, .menuc .menu li a:hover
+		{ background-color:#cc0000; color:#fff !important;}
+	
+.mgrrightnone
+{ margin-right:0px !important;}
+
+center
+{ font-size:11px; padding:10px 0px; color:#666}
+
+.wcmembers_top, .wcgamesscores_top
+{ width:916px; height:32px; font-size:12px;}
+
+	.wcmembers_top p, .wcgamesscores_top p
+	{line-height:32px; display:block; background:url(../images/copadomundo/bg_members_head.png) repeat-x bottom;}
+
+.wcmembers_body, .wcgamesscores_body
+{width:916px; height:600px; overflow-y:scroll; font-size:12px; border-bottom:2px solid #dedede;}
+
+	.wcgamesscores_body_nooverflow
+	{ overflow:inherit; height:inherit;}
+
+	.wcmembers_body p, .wcgamesscores_body p
+	{line-height:32px;display:block; background:url(../images/copadomundo/bg_members_body.png) repeat-x bottom;}
+	
+		.wcmembers_name
+		{float:left; padding-left:10px; width:290px;}
+		
+		.wcmembers_other
+		{float:left; width:210px;}
+		
+		.wcmembers_team
+		{float:left;}
+
+.wcgamesscores_top
+{ width:960px;}
+
+	.wcgamesscores_top p strong, .wcgamesscores_body p span
+	{ float:left;}
+	
+		.wcgamesscores_stndrd
+		{ padding-left:10px; width:41px;}
+		
+		.wcgamesscores_info
+		{ width:404px;}
+		
+		.wcgamesscores_info2
+		{ width:334px;}
+		
+		.wcgamesscores_info3
+		{ width:332px;}
+		
+		.wcgamesscores_points
+		{ width:70px; text-align:center;}
+		
+.wcgamesscores_body
+{ width:960px;}
+
+.wc_amistoso
+{ width:960px; height:50px; padding-top:14px; margin-top:2px; background:url(../images/copadomundo/bg_games.png) repeat-x bottom; border-top:1px solid #dedede;}	
+
+.wc_amistoso img, .wc_amistoso strong, .wc_amistoso span
+{ float:left; display:block;}		
+
+	.wc_amistoso .title_team
+	{ width:313px; height:50px; font-size:18px; line-height:32px; color:#666;}	
+	
+	.wc_amistoso .sep_score
+	{ width:40px; height:50px; font-size:22px; line-height:32px; color:#666; text-align:center; }
+	
+	.align_right
+	{ text-align:right;} 
+	
+	.score
+	{width:90px; height:50px; font-size:22px; line-height:32px; color:#666;}	

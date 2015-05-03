@@ -1,0 +1,269 @@
+#competicoes-content
+{ width:960px; min-height:600px; padding:10px; background:#fff;}
+
+.title-copadomundo
+{ width:956px; height:96px; border:2px solid #99cccc; border-radius:6px; background:url(../images/competicoes/bg-competicoes_copa-do-mundo.jpg)}
+
+	.title-copadomundo a
+	{ width:956px; height:96px; display:block;}
+	
+		.title-copadomundo a:hover
+		{ opacity:0.2; background-color:#fff;}
+	
+		.title-copadomundo a span
+		{ display:none;}
+
+.menu
+{ width:710px; height:32px; margin:10px auto 0px; list-style:none;}
+
+	.menu li
+	{ width:170px; height:32px;float:left; margin-right:10px;text-align:center;}
+	
+		.menu li:last-child
+		{ margin-right:0px;}
+		
+		.menu li a
+		{ width:170px; height:30px; line-height:30px; display:block; color:#d9d9d9; border-bottom:2px solid; font-weight:bold;}
+		
+.menu-copadomundo
+{}
+
+	.menu-copadomundo li a.active, .menu-copadomundo li a:hover
+	{ color:#99cccc; border-bottom-color:#99cccc; text-decoration:none;}
+	
+.imagem-premiacao
+{ width:700px; height:500px; border:8px solid #fff; margin:20px auto 0px; box-shadow: 0px 0px 15px #666;}
+
+.title-apresentacao
+{ padding:20px 0px 10px; color:#064482; font-size:28px;}
+
+.apresentacao
+{ font-size:13px; color:#666; padding:0px 20px;}
+
+	.apresentacao h4
+	{ font-size:13px; padding-top:10px;}
+	
+	.apresentacao h5
+	{ font-size:13px; padding-top:10px;}
+	
+	.apresentacao p
+	{ font-size:13px; padding-top:10px; text-indent:80px;}
+	
+.btn-inscricao
+{ width:250px; height:50px; margin:20px 0px;}
+
+	.btn-inscricao a
+	{ width:200px; height:40px; line-height:40px; display:block; border-radius:8px; background-color:#cc0000; text-align:center; color:#fff; font-size:18px; font-weight:bold;}
+	
+	.btn-inscricao a:hover
+	{ text-decoration:none; background-color:#990000; box-shadow: 0 0 10px #990000;}
+	
+.titleproblems
+{ padding-bottom:10px; font-size:18px; color:#cc0000;}
+
+.wctitledescform
+{ padding:40px 0px 0px; font-size:13px; color:#666;}
+
+.wctitleitemform
+{ padding:30px 0px 20px; font-size:18px; color:#064482;}
+
+.wcformerror
+{ width:70%; padding:10px; color:#fff; margin:10px auto 0px; text-align:center; background-color:#cc0000; font-size:16px; font-weight:bold;  -webkit-border-radius:6px; -moz-border-radius:6px; border-radius:6px;}
+
+.wcformcontainer
+{ padding:0px 20px;}
+	
+	.wcformcontainer p
+	{ color:#666; font-size:13px; padding-bottom:10px;}
+	
+		.wcformcontainer p a
+		{ color:#cc0000; font-size:16px; font-weight:bold;}
+		
+	.wcfieldcontainer
+	{ padding-bottom:20px;}
+		
+		.fieldlabel
+		{ color:#666; font-size:13px; padding-bottom:4px; line-height:12px; font-weight:bold; display:block;}
+		
+		.fieldlabelbig
+		{ height:30px; color:#cc0000; font-size:20px !important; line-height:30px; font-weight:bold; float:left; padding-left:10px;}
+
+		.fieldtext
+		{ width:380px; height:24px; padding:0px 2px; font-size:14px; font-weight:bold; color:#999999; border:1px solid #ccc; display:block; border-radius:6px;}
+		
+		.fieldcheck
+		{ width:30px; height:30px; float:left;}
+		
+		.fielderror
+		{ color:#cc0000; font-size:13px; padding-top:2px; display: block;}
+		
+		.fieldbutton
+		{ padding:6px 20px;}
+		
+		.wchowto
+		{ margin-bottom:10px; padding:10px; min-height:90px; background-color:#ddd; border:1px solid #ccc; -webkit-border-radius:6px; -moz-border-radius:6px; border-radius:6px;}
+		
+.row_selecoes
+{ height:75px; display:block; margin-bottom:10px; background:url(../images/copadomundo/bg_confederation.png) repeat-x;  -webkit-border-radius:6px; -moz-border-radius:6px; border-radius:6px;}
+
+	.selecoes_ewlfa
+	{ width:291px; height:55px; margin:0px auto; padding-top:12px !important; background:url(../images/copadomundo/selecoes_ewlfa.png) center bottom no-repeat;}	
+	
+		.selecoes_ewlfa span
+		{ display:none;}
+		
+	.selecoes_ewlfa_associations
+	{ height:75px; line-height:75px; padding-left:10px; color:#666; font-size:14px; float:left;}
+	
+		.selecoes_ewlfa_associations a
+		{ color:#0033CC}
+		
+		.selecoes_ewlfa_associations a:hover
+		{ text-decoration:none}
+	
+	.associationsimg
+	{ border:1px solid #ccc; float:left;}
+	
+.groups_eliminatorias
+{ padding:10px 0px 4px; font-size:16px}	
+	
+.row_selecoes_list
+{ width:916px;}				
+
+	.new_selecao
+	{ width:57px; height:50px; float:left; display:block; }
+	
+	.new_selecao img
+	{ display:block; border:none;}
+	
+.wcdescs
+{ color:#666; font-size:13px; padding-bottom:10px;}
+
+.desc_eliminatorias
+{ font-size:12px; padding-bottom:10px;}
+
+#selecaopopup
+{ width:600px; height:310px;}
+
+	#selecaopopup h3
+	{ height:35px; background:left top no-repeat; padding-left:62px; border-bottom:1px solid #ccc; font-size:22px; color:#999;}
+	
+	#selecaopopup ul
+	{ list-style:none; padding:20px;}
+		
+		#selecaopopup ul li
+		{ line-height:24px; font-size:12px;}
+		
+.classificacao
+{ width:960px; border-collapse:collapse; border:1px solid #ccc; margin-top:10px;}
+
+    .classificacao .left
+    { text-align:left !important;}    
+
+    .classificacao .bold
+    { font-weight:bold; color:#000 !important;}    
+
+    .classificacao thead
+    { color:#999;}    
+
+        .classificacao thead tr
+        { background-color:#efefef;}
+
+            .classificacao thead tr th
+            { font-size:11px; line-height:32px; text-transform:uppercase; font-weight:normal;}        
+
+    .classificacao tbody
+    { font-size:12px; color:#999;}
+
+        .classificacao tbody tr td
+        { border-top:1px solid #ccc; line-height:36px; text-align:center;}
+
+            .classificacao tbody tr td.sustenido
+            { font-size:18px;}            
+
+            .classificacao tbody tr td.classificado
+            { color:#036;}			
+
+			.classificacao tbody tr td.classificado2
+            { color:#cc0000;}            
+
+            .classificacao tbody tr td.nometime
+            { width:450px;}
+
+            .classificacao tbody tr:hover
+            { background-color:#efefef;}                
+
+    .classificacao thead tr th, .classificacao tbody tr td
+    { padding:0px 8px;}
+
+.mgrrightnone
+{ margin-right:0px !important;}
+
+center
+{ font-size:11px; padding:10px 0px; color:#666}
+
+.wcmembers_top, .wcgamesscores_top
+{ width:916px; height:32px; font-size:12px;}
+
+	.wcmembers_top p, .wcgamesscores_top p
+	{line-height:32px; display:block; background:url(../images/copadomundo/bg_members_head.png) repeat-x bottom;}
+
+.wcmembers_body, .wcgamesscores_body
+{width:916px; height:600px; overflow-y:scroll; font-size:12px; border-bottom:2px solid #dedede;}
+
+	.wcgamesscores_body_nooverflow
+	{ overflow:inherit; height:inherit;}
+
+	.wcmembers_body p, .wcgamesscores_body p
+	{line-height:32px;display:block; background:url(../images/copadomundo/bg_members_body.png) repeat-x bottom;}
+	
+		.wcmembers_name
+		{float:left; padding-left:10px; width:290px;}
+		
+		.wcmembers_other
+		{float:left; width:210px;}
+		
+		.wcmembers_team
+		{float:left;}
+	
+.wcgamesscores_top
+{ width:960px;}
+
+	.wcgamesscores_top p strong, .wcgamesscores_body p span
+	{ float:left;}
+	
+		.wcgamesscores_stndrd
+		{ padding-left:10px; width:41px;}
+		
+		.wcgamesscores_info
+		{ width:404px;}
+		
+		.wcgamesscores_info2
+		{ width:334px;}
+		
+		.wcgamesscores_info3
+		{ width:332px;}
+		
+		.wcgamesscores_points
+		{ width:70px; text-align:center;}
+		
+.wcgamesscores_body
+{ width:960px;}
+	
+.wc_amistoso
+{ width:960px; height:50px; padding-top:14px; margin-top:2px; background:url(../images/copadomundo/bg_games.png) repeat-x bottom; border-top:1px solid #dedede;}
+
+.wc_amistoso img, .wc_amistoso strong, .wc_amistoso span
+{ float:left; display:block;}
+
+	.wc_amistoso .title_team
+	{ width:313px; height:50px; font-size:18px; line-height:32px; color:#666;}	
+
+	.wc_amistoso .sep_score
+	{ width:40px; height:50px; font-size:22px; line-height:32px; color:#666; text-align:center; }	
+
+	.align_right
+	{ text-align:right;} 	
+
+	.score
+	{width:90px; height:50px; font-size:22px; line-height:32px; color:#666;}

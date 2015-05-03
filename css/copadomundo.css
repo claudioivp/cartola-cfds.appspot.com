@@ -1,0 +1,236 @@
+*
+{margin:0px; padding:0px; font-family:Arial, Helvetica, sans-serif; }
+
+body
+{ background-image:url(../images/copadomundo/bg_bodybig.jpg),url(../images/copadomundo/bg_body.png); background-repeat:no-repeat,repeat-x; background-color:#030a31; background-position-y:66px,0px; background-position-x:center;}
+
+    .mrglftnone
+{ margin-left:0px !important;}
+
+#topcfds
+{ width:100%; height:60px; background:#000 url(../images/copadomundo/bg_top.jpg) center no-repeat; position:fixed; z-index:999; border-bottom:6px solid #fff;  box-shadow: 0 0 30px #000; -webkit-box-shadow: 0 0 30px #000; -moz-box-shadow: 0 0 30px #000;}
+
+    #topcfds h2
+    { width:256px; height:40px; margin:10px auto 0px;}
+        
+        #topcfds h2 a
+        { width:256px; height:40px; display:block; background:url(../images/copadomundo/bg_cfdslogo.png);}
+            
+            #topcfds h2 a:hover
+            { opacity: 0.9; -moz-opacity: 0.9; filter:alpha(opacity=90);}
+    
+            #topcfds h2 a span
+            { display:none;}
+            
+#main
+{ width:980px; margin:0px auto; padding:10px; padding-top:86px;}
+    
+    #anuncios
+    { width:950px; margin:0px auto;}
+    
+        #anuncios .item
+        { width:300px; height:250px; float:left; background-color:#fff; border:5px solid #7aa1d7; margin-left:10px; box-shadow: 0 0 50px #fff; -webkit-box-shadow: 0 0 50px #fff; -moz-box-shadow: 0 0 50px #fff;}
+        
+    #logos
+    { width:980px; height:246px;}
+    
+        #logos .cfds
+        { width:252px; height:246px; background:url(../images/copadomundo/logo_cfds.png) center no-repeat; float:left; margin-right:10px;}
+    
+        #logos .copadomundo
+        { width:456px; height:246px; margin:0px auto;}
+        
+            #logos .copadomundo h1
+            { width:444px; height:246px; margin:0px auto;}
+            
+                #logos .copadomundo a
+                { width:444px; height:246px; display:block; background:url(../images/copadomundo/logo_copadomundo.png) center no-repeat;}
+                
+                #logos .copadomundo a:hover
+                { opacity: 0.9; -moz-opacity: 0.9; filter:alpha(opacity=90);}
+
+                    #logos .copadomundo a span
+                    { display:none;}
+        
+        #logos .cartolafc
+        { width:252px; height:246px; background:url(../images/copadomundo/logo_cartolafc.png) center no-repeat; float:left;}
+        
+    #ads_culturaracional
+    { width:980px; height:90px;}
+    
+        #ads_culturaracional a
+        { width:972px; height:82px; border:4px solid #7aa1d7; display:block; background:url(../images/copadomundo/ads_culturaracional.png) center no-repeat; -webkit-border-radius:10px; -moz-border-radius:10px; border-radius:10px; box-shadow: 0 0 50px #fff; -webkit-box-shadow: 0 0 50px #fff; -moz-box-shadow: 0 0 50px #fff;}
+        
+            #ads_culturaracional a:hover
+            { opacity: 0.9; -moz-opacity: 0.9; filter:alpha(opacity=90);}
+            
+    #likebox
+    { width:62px; height:80px; margin:110px auto 0px; background:url(../images/copadomundo/bg_shadow_likebox.png) center no-repeat;}
+    
+    #mainmenu
+    { width: 630px; height:32px; margin:30px auto 0px;}
+    
+        #mainmenu ul
+        { width: 630px; height:32px; list-style:none;}
+        
+            #mainmenu ul li
+            { width:150px; height:32px; margin-left:10px; float:left;}
+            
+                #mainmenu ul li a
+                { width:146px; height:26px; display:block; line-height:26px; border:2px solid #fff; text-align:center; font-weight:bold; color:#006633; text-decoration:none; font-size:14px; background-color:#fff; -webkit-border-radius:6px; -moz-border-radius:6px; border-radius:6px; box-shadow: 0 0 30px #fff; -webkit-box-shadow: 0 0 30px #fff; -moz-box-shadow: 0 0 30px #fff;}
+                
+                    #mainmenu ul li a:hover
+                    { background-color:#ffdd00; background-image:url(../images/copadomundo/bg_menu_hover.jpg);}
+                    
+                #mainmenu ul li a.disabled
+                { opacity: 0.6; -moz-opacity: 0.6; filter:alpha(opacity=60);}
+                
+                #mainmenu ul li a.active
+                {height:30px; line-height:30px; background-color:#006633; color:#ffdd00; background-image:url(../images/copadomundo/bg_menu_active.jpg);}
+                
+    #maincontent
+    { width: 960px; min-height:400px; margin:0px auto 0px; padding:10px; background-color:#fff; -webkit-border-radius:8px; -moz-border-radius:8px; border-radius:8px; box-shadow: 0 0 30px #fff; -webkit-box-shadow: 0 0 30px #fff; -moz-box-shadow: 0 0 30px #fff;}
+        
+        #maincontent h2
+        { padding:20px 0px 10px; color:#064482; font-size:28px;}
+        
+        .contentheader
+        { background: url(../images/copadomundo/bg_top.jpg?nocache=true) center no-repeat; height:35px; padding-top:5px; -webkit-border-radius:6px; -moz-border-radius:6px; border-radius:6px; }
+        
+            .contentheader .wctitle
+            { width:250px; height:30px; display:block; margin:0px auto; }
+            
+                .contentheader .wctitle span
+                { display:none;}
+            
+            .contentheader .index
+            { background: url(../images/copadomundo/bg_menu_organizacao.png) center no-repeat;}
+            
+            .contentheader .inscricao
+            { background: url(../images/copadomundo/bg_menu_inscricao.png) center no-repeat;}
+            
+            .contentheader .inscritos
+            { background: url(../images/copadomundo/bg_menu_inscritos.png) center no-repeat;}
+            
+            .contentheader .tabelas
+            { background: url(../images/copadomundo/bg_menu_tabelas.png) center no-repeat;}
+            
+            .contentheader .selecoes
+            { background: url(../images/copadomundo/bg_menu_selecoes.png) center no-repeat;}
+            
+			.wcapresentacao
+			{ font-size:13px; color:#666;}
+			
+				.wcapresentacao h4
+				{ font-size:13px; padding-top:10px;}
+				
+				.wcapresentacao h5
+				{ font-size:13px; padding-top:10px;}
+				
+				.wcapresentacao p
+				{ font-size:13px; padding-top:10px;}
+                
+            .wctitledescform
+            { padding:20px 0px 0px; font-size:13px; color:#666;}
+            
+            .wctitleitemform
+            { padding:20px 0px 10px; font-size:18px; color:#064482;}
+            
+            .wcformerror
+            { width:70%; padding:10px; color:#fff; margin:10px auto 0px; text-align:center; background-color:#cc0000; font-size:16px; font-weight:bold;  -webkit-border-radius:6px; -moz-border-radius:6px; border-radius:6px;}
+            
+            .wcformcontainer
+            { padding:0px 20px;}
+                
+                .wcformcontainer p
+                { color:#666; font-size:13px; padding-bottom:10px;}
+                
+                    .wcformcontainer p a
+                    { color:#cc0000; font-size:16px; font-weight:bold;}
+                    
+                .wcfieldcontainer
+                { padding-bottom:20px;}
+                    
+                    .fieldlabel
+                    { color:#666; font-size:13px; padding-bottom:4px; line-height:12px; font-weight:bold; display:block;}
+                    
+                    .fieldlabelbig
+                    { height:30px; color:#cc0000; font-size:20px !important; line-height:30px; font-weight:bold; float:left; padding-left:10px;}
+
+                    .fieldtext
+                    { width:380px; height:24px; padding:0px 2px; font-size:14px; font-weight:bold; color:#999999; border:1px solid #ccc; display:block; border-radius:6px;}
+                    
+                    .fieldcheck
+                    { width:30px; height:30px; float:left;}
+                    
+                    .fielderror
+                    { color:#cc0000; font-size:13px; padding-top:2px; display: block;}
+                    
+                    .fieldbutton
+                    { padding:6px 20px;}
+                    
+                    .wchowto
+                    { margin-bottom:10px; padding:10px; min-height:90px; background-color:#ddd; border:1px solid #ccc; -webkit-border-radius:6px; -moz-border-radius:6px; border-radius:6px;}
+                    
+			.groups_eliminatorias
+			{ padding:10px 0px 4px; font-size:16px}
+			
+			.row_selecoes
+			{ height:75px; display:block; margin-bottom:10px; background:url(../images/copadomundo/bg_confederation.png) repeat-x;  -webkit-border-radius:6px; -moz-border-radius:6px; border-radius:6px;}
+			
+				.selecoes_ewlfa
+				{ width:291px; height:55px; margin:0px auto; padding-top:12px !important; background:url(../images/copadomundo/selecoes_ewlfa.png) center bottom no-repeat;}	
+				
+					.selecoes_ewlfa span
+					{ display:none;}
+					
+				.selecoes_ewlfa_associations
+				{ height:75px; line-height:75px; padding-left:10px; color:#666; font-size:14px; float:left;}
+				
+					.selecoes_ewlfa_associations a
+					{ color:#0033CC}
+					
+					.selecoes_ewlfa_associations a:hover
+					{ text-decoration:none}
+				
+				.associationsimg
+				{ border:1px solid #ccc; float:left;}
+                
+            .row_selecoes_list
+			{ width:916px;}				
+			
+				.new_selecao
+				{ width:57px; height:50px; float:left; display:block; }
+				
+				.new_selecao img
+				{ display:block; border:none;}
+				
+            .menu_games
+			{ width:665px; height:28px; margin:0px auto; list-style:none;}
+            
+                .menu_games li
+                { width:125px; height:28px; float:left; margin-right:10px;}
+                
+                    .menu_games li a
+                    { line-height:28px; background:url(../images/copadomundo/bg_menu_games.png) repeat-x; display:block; text-align:center; font-size:12px; color:#666; font-weight:bold; -webkit-border-radius:6px; -moz-border-radius:6px; border-radius:6px;}
+				
+                        .menu_games li a:hover, .menu_games li a.active
+                        { background:url(../images/copadomundo/bg_menu_games_horizon.png) repeat-y; line-height:26px; text-decoration:none; color:#999; border:1px solid #e1e1e0;}
+                        
+            .wcdescs
+			{ color:#666; font-size:13px; padding-bottom:10px;}
+            
+            .desc_eliminatorias
+			{ font-size:12px; padding-bottom:10px;}
+                    
+			#selecaopopup
+			{ width:600px; height:410px;}
+			
+				#selecaopopup h3
+				{ height:35px; background:left top no-repeat; padding-left:62px; border-bottom:1px solid #ccc; font-size:22px; color:#999;}
+				
+				#selecaopopup ul
+				{ list-style:none; padding:20px;}
+					
+					#selecaopopup ul li
+					{ line-height:24px; font-size:12px;}

@@ -1,0 +1,95 @@
+.button
+{ text-align:center; text-decoration:none; text-transform:uppercase; font-size:14px; font-weight:bold; display:block; color:#cc0000; background:url(../images/bg_button30.png) bottom;  -webkit-border-radius:6px; -moz-border-radius:6px; border-radius:6px;}
+
+    .button:hover
+    { color:#ff0000; box-shadow: 0 0 10px #ffffff; -webkit-box-shadow: 0 0 10px #ffffff; -moz-box-shadow: 0 0 10px #ffffff;}
+
+    .button:active
+    { box-shadow: 0 0 16px #ffffff; -webkit-box-shadow: 0 0 16px #ffffff; -moz-box-shadow: 0 0 16px #ffffff;}
+    
+.button30
+{ width:150px; height:30px; line-height:30px; margin:0px auto;}
+
+.btndisabled
+{ opacity:0.3; -moz-opacity: 0.3; filter: alpha(opacity=30);}
+
+#formscontent
+{ width:960px; padding:20px 10px;}
+
+    .membererror
+    { padding-bottom:20px; line-height:12px; display:block; text-align:center; font-size:12px; font-weight:bold; color:#ffff00}
+
+    .fieldcontainer
+    { width:256px; margin:0px auto; padding-bottom:20px;}
+    
+    .captchacontainer
+    { width:318px; padding-bottom:20px;}
+
+        .fieldlabel
+        { padding-bottom:4px; line-height:12px; display:block; font-size:12px; font-weight:bold; color:#ffffff}
+        
+            .fieldlabel a
+            { color:#ffffff;}
+            
+                .fieldlabel a:hover
+                { text-decoration:none;}
+
+        .fieldtext
+        { width:250px; height:24px; padding:0px 2px; font-size:14px; font-weight:bold; color:#999999; border:1px solid #ffffff; display:block; border-radius:6px;}
+        
+            .fieldtext:hover
+            { box-shadow: 0 0 10px #ffffff; -webkit-box-shadow: 0 0 10px #ffffff; -moz-box-shadow: 0 0 10px #ffffff;}
+            
+            .fieldtext:focus
+            { box-shadow: 0 0 16px #ffffff; -webkit-box-shadow: 0 0 16px #ffffff; -moz-box-shadow: 0 0 16px #ffffff;}
+            
+        .fieldtextarea
+        { height:112px;}
+        
+        .fieldselect
+        { width:255px; height:26px; padding:3px; font-size:14px; font-weight:bold; color:#999999; border:1px solid #ffffff; display:block; border-radius:6px;}
+        
+            .fieldselect:hover
+            { box-shadow: 0 0 10px #ffffff; -webkit-box-shadow: 0 0 10px #ffffff; -moz-box-shadow: 0 0 10px #ffffff;}
+            
+            .fieldselect:focus
+            { box-shadow: 0 0 16px #ffffff; -webkit-box-shadow: 0 0 16px #ffffff; -moz-box-shadow: 0 0 16px #ffffff;}
+            
+        .fielderror
+        { padding-top:4px; line-height:12px; display:block; font-size:12px; font-weight:bold; color:#ffff00}
+
+        .fieldcheckbox
+        { float:left;}
+
+        .fieldlabelcheckbox
+        { padding-left:4px; float:left; line-height:13px; font-size:12px; font-weight:bold; color:#ffffff}
+        
+            .fieldlabelcheckbox a
+            { color:#ffffff;}
+            
+                .fieldlabelcheckbox a:hover
+                { text-decoration:none;}
+        
+        .recoverpass
+        { width:318px; padding-top:20px; text-align:center}
+        
+        .recoverpass a
+        { color:#ffffff; font-size:12px; font-weight:bold;}
+        
+            .recoverpass a:hover
+            { text-decoration:none;}
+            
+    .haveacccontainer
+    { width:318px; padding:60px 0px;}
+            
+        .haveacc
+        { width:290px; height:50px; margin:0px auto; background:url(../images/misc/bg_haveacc.png) no-repeat;}
+
+            .haveacc span, .alreadyhaveacc span
+            { display:none;}
+    
+    .alreadyhaveacccontainer
+    { width:318px; padding:40px 0px 20px;}
+            
+        .alreadyhaveacc
+        { width:214px; height:50px; margin:0px auto; background:url(../images/misc/bg_alreadyhaveacc.png) no-repeat;}

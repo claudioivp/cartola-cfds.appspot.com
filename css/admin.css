@@ -1,0 +1,105 @@
+*
+{ margin:0px; padding:0px; font-family:Arial, Helvetica, sans-serif;}
+
+body
+{ background:url(../images/bodybg.png) fixed #333;}
+
+h3
+{ height:25px; line-height:27px; font-size:15px; color:#fff; background:#444; text-align: center; margin:0 auto; margin-bottom:10px;}
+
+    h3 span
+    { background:#444; padding-left:5px; padding-right:5px; text-transform:uppercase;}
+
+a
+{ text-decoration:none; color:#cc0000;}
+
+    a:hover
+    { color:#ff0000;}    
+    
+#menu
+{ width:100%; line-height:40px; background:#333; text-align: center;}
+
+    #menu ul
+    { width:980px; margin:0 auto;}
+
+        #menu ul li
+        { display:inline;}
+
+            #menu ul li a
+            {padding:10px; line-height:20px; font-size:14px; color:#fff; text-decoration:none; text-transform:uppercase; -webkit-transition:color 0.5s ease-out; -moz-transition:color 0.5s ease-out; -o-transition:color 0.5s ease-out;  -ms-transition:color 0.5s ease-out; -webkit-transition:background-color 0.5s ease-out; -moz-transition:background-color 0.5s ease-out; -o-transition:background-color 0.5s ease-out;  -ms-transition:background-color 0.5s ease-out; background-color:#333;}
+
+                #menu ul li a:hover
+                { color:#fff; filter:alpha(opacity=100); -moz-opacity:1; opacity:1; background-color:#444;}
+
+#logo
+{ width:376px; height:60px; margin:20px auto;}
+
+    #logo h1
+    { width:376px; height:60px; margin:0px auto;}
+
+    #logo h1 a
+    { width:376px; height:60px; display:block; background:url(../images/logo2.png) no-repeat;}
+
+    #logo h1 a:hover
+    { text-decoration:none; opacity: 0.75; -moz-opacity: 0.75; filter: Alpha(Opacity=75);}
+
+    #logo h1 a span
+    { display:none;}
+
+#main
+{ width:980px; padding:10px; margin:0 auto; min-height:500px; background:#333; -webkit-border-top-left-radius: 6px; -webkit-border-top-right-radius: 6px; -moz-border-radius-topleft: 6px; -moz-border-radius-topright: 6px; border-top-left-radius: 6px; border-top-right-radius: 6px;}
+
+    #formscontent
+    { background-color:#444;}
+    
+    .lista_posts
+    { padding:10px; background-color:#fff;}
+    
+        p.postdate
+        { color:#999; font-size:11px; border-bottom:1px solid #ebebeb; padding:10px 0px 0px; margin-bottom: 4px;}
+    
+    .postitem
+    { width:628px; height:132px; margin:0px auto 10px; padding:10px; border-width: 2px; border-style: dotted; border-color: #999; background-color: #fff;}
+
+        .postitem .thumb
+        { width:188px; height:132px; float:left; margin-right:10px;}
+
+            .postitem .thumb a:hover
+            {  opacity: 0.75; -moz-opacity: 0.75; filter: Alpha(Opacity=75);}
+
+        .postitem .itembody
+        { width:430px; height:132px; float:left;}
+
+            .itemdate
+            { color:#999; font-size:11px; border-bottom:1px solid #ebebeb;}
+
+            .itemtitulo
+            { font-size:20px; line-height:25px; margin-top:10px;}    
+
+            .itemdesc
+            { font-size:14px; color:#333;  margin-top:10px;} 
+            
+            .actions
+            { font-size:14px; color:#333;  margin-top:10px;} 
+            
+    #navposts
+    { width:100%; z-index:9999; text-align: center; margin:0 auto; padding:10px; color: #999;}
+
+        #navposts a
+            {padding-left:10px; padding-right:10px; padding:5px; font-size:14px; color:#999; text-decoration:none; -webkit-transition:color 0.5s ease-out; -moz-transition:color 0.5s ease-out; -o-transition:color 0.5s ease-out;  -ms-transition:color 0.5s ease-out; -webkit-transition:background-color 0.5s ease-out; -moz-transition:background-color 0.5s ease-out; -o-transition:background-color 0.5s ease-out;  -ms-transition:background-color 0.5s ease-out; background-color:#333; margin:2px;}
+
+            #navposts a:hover
+            { color:#fff; filter:alpha(opacity=100); -moz-opacity:1; opacity:1; background-color:#444;}
+
+        #navposts input
+        { width:30px; height:20px; text-align:center;}
+
+        #navposts span
+        { font-size:14px;}
+    
+    
+#rodape
+{ width:980px; background-color:#333; padding:10px; text-align:center; margin:10px auto 0px;}
+
+    #rodape p
+    { font-size:11px; color:#999;}
